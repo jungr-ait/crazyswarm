@@ -5,7 +5,7 @@ ROOT=$PWD
 
 # submodules
 git submodule init
-git submodule update
+git submodule update --remote
 
 cd ros_ws/src/crazyflie_ros/
 git submodule init
