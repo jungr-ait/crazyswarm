@@ -1,6 +1,6 @@
 [submodule "crazyflie-firmware"]
 	path = crazyflie-firmware
-	url = https://github.com/USC-ACTLab/crazyflie-firmware.git
+	url = https://github.com/jungr-ait/crazyflie-firmware.git
 	branch = crazyswarm-next
 [submodule "crazyflie-lib-python"]
 	path = crazyflie-lib-python
