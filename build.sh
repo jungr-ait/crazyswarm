@@ -4,8 +4,11 @@ set -e
 ROOT=$PWD
 
 # submodules
+
+
 git submodule init
 git submodule update --remote
+# git submodule update --init --recursive --remote
 
 cd ros_ws/src/crazyflie_ros/
 git submodule init
@@ -14,7 +17,7 @@ cd $ROOT
 
 cd ros_ws/src/externalDependencies/libmotioncapture/
 git submodule init
-git submodule update
+git submodule update --remote
 cd $ROOT
 
 # build nrf firmware
